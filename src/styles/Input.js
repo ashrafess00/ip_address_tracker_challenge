@@ -3,10 +3,9 @@ import arr from "../images/icon-arrow.svg";
 
 export const InputCon = styled.div`
   display: flex;
-  /* width: fit-content; */
+
   align-items: center;
   height: 3rem;
-  border: solid 1px blue;
   @media (min-width: 495px) {
     min-width: 25rem;
   }
