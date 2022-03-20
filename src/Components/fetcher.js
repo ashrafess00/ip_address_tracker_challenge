@@ -5,6 +5,7 @@ export const fetcher = async (url) => {
     isp,
     location: { lat, lng, region, city, timezone },
   } = await res.json();
+
   return {
     ip,
     isp,
